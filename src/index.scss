@@ -1,0 +1,28 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+$blue:#0d6efd;
+$blue-800: shade-color($blue, 60%) !default;
+$blue-200: tint-color($blue, 60%) !default;
+$gray-200: #e9ecef !default;
+
+$theme-colors: (
+    "light2":$gray-200,
+    // "indigo": #6610f2,
+    "red": #830419,
+    "green": #1a8516,
+    "orange": #fd7e14,
+    'blue-100':$blue-200,
+    'blue-800':$blue-800,
+    "yellow":  #ffc107,
+    "primary": #0d6efd,
+);
+
+
+// @import "../node_modules/bootstrap/scss/functions";
+
+// @import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap"; 
